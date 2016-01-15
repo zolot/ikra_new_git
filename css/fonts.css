@@ -1,0 +1,34 @@
+@font-face {
+  font-family: "RobotoRegular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/RobotoRegular/RobotoRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/RobotoRegular/RobotoRegular.woff") format("woff"), url("../fonts/RobotoRegular/RobotoRegular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "RobotoBold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/RobotoBold/RobotoBold.eot?#iefix") format("embedded-opentype"), url("../fonts/RobotoBold/RobotoBold.woff") format("woff"), url("../fonts/RobotoBold/RobotoBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Exo-Black";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Exo-Black/Exo-Black.eot?#iefix") format("embedded-opentype"), url("../fonts/Exo-Black/Exo-Black.woff") format("woff"), url("../fonts/Exo-Black/Exo-Black.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "RobotoLight";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/RobotoLight/RobotoLight.eot?#iefix") format("embedded-opentype"), url("../fonts/RobotoLight/RobotoLight.woff") format("woff"), url("../fonts/RobotoLight/RobotoLight.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Exo-Light";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/Exo-Light/Exo-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Exo-Light/Exo-Light.woff") format("woff"), url("../fonts/Exo-Light/Exo-Light.ttf") format("truetype");
+}

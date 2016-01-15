@@ -1,0 +1,760 @@
+@import "bourbon/bourbon"
+
+$red-color: #fc5600
+$dark-color: #323232
+$gray-color: #646464
+$blue-color: #00b4cb
+
+body
+	font-family: "RobotoRegular";
+	font-weight: normal
+	font-size: 18px
+	color: $gray-color
+	position: relative
+	margin: 0
+	padding: 0
+	min-width: 1200px
+
+.hidden
+	display: none
+
+.container
+	width: 1200px
+	margin: 0 auto
+	max-width: 100%
+section 
+	padding: 70px 10px
+h2 
+	font-size: 48px
+	line-height: 52px 
+	text-align: center
+	font-family: "Exo-Light";
+	color: $dark-color
+	margin-top: 0
+	font-weight: normal
+h3, h4, h5 
+	font-weight: normal
+.btn 
+	background:  $blue-color
+	width: 240px
+	height: 50px
+	display: inline-block
+	border: none
+	border-radius: 3px 
+	line-height: 50px
+	color: #fff 
+	font-size: 24px
+	cursor: pointer
+	text-decoration: none
+	text-align: center
+	&:hover
+		background: #00b2c8
+		background: linear-gradient(to top, #00a6bc, #00b2c8);
+
+.top-line
+	position: fixed
+	width: 100%
+	height: 60px 
+	background: rgba(255,255,255, 0.9)
+	min-width: 1200px
+	padding: 7px 0
+	z-index: 1000;
+	.top-container
+		max-width: 1645px
+		margin: 0 auto
+		padding: 0 15px
+	p 
+		margin: 0
+		font-size: 16px
+	.logo
+		position: absolute
+		top: 7px 
+		left: 50%
+		margin-left: -175px
+		width: 240px
+	.phone-wrap
+		float: left
+		.phone
+			color: $red-color
+			font-size: 24px
+			font-family: "RobotoBold";
+			i 
+				display: inline-block
+				margin-right: 8px
+	.right-wrap
+		float: right
+		text-align: right
+		margin-top: 4px
+		.contact
+			display: inline-block
+		.btn
+			font-size: 22px 
+			width: 230px
+			margin-left: 15px
+			vertical-align: top
+
+
+
+header
+	background: url('../img/header-bg.jpg') center
+	background-size: cover
+	padding: 160px 10px 60px
+	.wrap
+		width: 720px
+	h1 
+		font-family: "Exo-Black";
+		font-size: 42px 
+		color: $dark-color
+		line-height: 52px
+		margin: 0 0 35px
+		text-align: center
+		font-weight: normal
+		span 
+			font-size: 44px 
+			text-transform: uppercase
+	.diamond
+		width: 20px
+		height: 20px
+		background-color: $red-color
+		-webkit-transform: rotate(-45deg);
+		-moz-transform: rotate(-45deg);
+		-ms-transform: rotate(-45deg);
+		-o-transform: rotate(-45deg);
+		transform: rotate(-45deg);
+		-webkit-transform-origin: 0 100%;
+		-moz-transform-origin: 0 100%;
+		-ms-transform-origin: 0 100%;
+		-o-transform-origin: 0 100%;
+		transform-origin: 0 100%;
+		margin: 0 auto
+	.offer
+		margin: 30px 0 0
+		font-size: 30px 
+		font-family: "Exo-Black";
+		color: $red-color
+		text-align: center
+		span 
+			text-transform: uppercase
+			.old-price
+				display: inline-block
+				position: relative
+				margin: 0 8px
+				span 
+					width: 80px
+					height: 5px 
+					position: absolute
+					top: 20px;
+					left: -5px;
+					background-color: $red-color
+					display: inline-block
+					-webkit-transform: rotate(-10deg);
+					-moz-transform: rotate(-10deg);
+					-ms-transform: rotate(-10deg);
+					-o-transform: rotate(-10deg);
+					transform: rotate(-10deg);
+	form 
+		background: rgba(255,255,255, 0.8)
+		border-radius: 10px 
+		padding: 30px 
+		width: 710px 
+		box-sizing: border-box
+		overflow: hidden
+		margin-top: 70px
+		.title
+			font-size: 23px
+			color: $dark-color
+			display: inline-block
+			line-height: 50px
+			vertical-align: top
+			float: left
+			margin: 8px 5px
+		input 
+			width: 310px
+			height: 40px 
+			background-color: #FFF
+			border: 1px solid #e6e6e6 
+			border-radius: 3px
+			vertical-align: top
+			margin: 8px 5px
+			text-indent: 15px
+			font-size: 18px 
+			font-family: "RobotoRegular";
+			outline: none
+			&:nth-child(2n+1)
+				float: left
+			&:nth-child(2n)
+				float: right
+		.btn 
+			vertical-align: top
+			float: right
+			margin: 8px 5px
+
+#adventages
+	background: url('../img/pattern.png')
+	text-align: center
+	.adventage-wrap
+		width: 290px
+		display: inline-block
+		vertical-align: top
+		padding-right: 30px 
+		box-sizing: border-box
+		text-align: left
+		margin-bottom: 45px
+		img 
+			height: 75px 
+			width: auto
+		h3
+			font-size: 24px 
+			font-family: "Exo-Light";
+			margin: 15px 0 20px 
+
+#fishes
+	background: url('../img/more.jpg')
+	background-size: cover
+	padding-top: 0
+	padding-bottom: 25px
+	.fishes-slider
+		margin: 0 auto 
+		position: relative
+		top: -60px
+		width: 890px
+		.owl-item
+			padding-bottom: 50px
+		.item
+			background-color: #FFF
+			color: $dark-color			
+			height: 315px
+			border: 1px solid $red-color
+			box-sizing: border-box
+			position: relative
+			display: table
+			.arrow, .arrow-border
+				position: absolute
+				width: 0;
+				height: 0;
+				border-left: 35px solid transparent;
+				border-right: 35px solid transparent;
+			.arrow
+				bottom: -24px
+				border-top: 25px solid #fff;				
+			.arrow-border
+				bottom: -25px
+				border-top: 25px solid $red-color;
+		.owl-item
+			.item-1
+				.arrow, .arrow-border
+					left: 175px
+			.item-2
+				.arrow, .arrow-border
+					left: 335px
+			.item-3
+				.arrow, .arrow-border
+					right: 335px
+			.item-4
+				.arrow, .arrow-border
+					right: 175px
+
+			.info-wrap
+				display: table-cell
+				vertical-align: middle
+				padding: 30px 60px
+				h2 
+					margin: 0 0 30px
+				p 
+					font-size: 21px
+					line-height: 30px
+					font-family: "RobotoLight";
+					width: 100%
+					display: block
+		.owl-dots
+			text-align: center
+		.owl-dot
+			width: 110px 
+			height: 50px
+			margin: 0 22px
+			background: url(../img/fish.png) no-repeat center
+			display: inline-block
+			&:hover
+				background: url(../img/fish_hover.png) no-repeat center
+		.owl-dot.active
+			background: url(../img/fish_hover.png) no-repeat center
+
+#caviar-kinds
+	background: url('../img/pattern.png')
+	text-align: center
+	padding: 0
+	.kind-wrap
+		padding: 55px 10px
+		text-align: center
+		h2 
+			text-align: left
+			margin-bottom: 20px
+		&:nth-child(2n+1)
+			background: rgba(0, 180, 203, 0.04)
+		&:nth-child(2n)
+			background: rgba(140, 140, 140, 0.04)
+		img 
+			display: inline-block
+			vertical-align: middle
+			margin: 0 60px
+		.descr-wrap
+			display: inline-block
+			vertical-align: middle	
+			width: 480px
+			text-align: left		
+			p 
+				line-height: 26px
+			.btn
+				margin-top: 45px 
+				width: 290px
+				height: 60px
+				line-height: 60px
+				text-transform: uppercase
+
+#geography
+	img 
+		width: 100%
+	.descr
+		text-align: center
+		margin-top: -55px;
+		.square
+			width: 25px
+			height: 25px 
+			background-color: #fe0000
+			display: inline-block
+			vertical-align: middle
+			margin: 0 10px
+		span 
+			font-size: 24px
+			line-height: 30px 
+			font-family: "Exo-Light";
+			display: inline-block
+			vertical-align: middle
+
+#production-scheme
+	background-color: #fafafa
+	text-align: center
+	.bxslider-scheme
+		width: 870px !important
+		height: 300px !important
+		padding: 0
+		margin: 0 auto
+		li 
+			max-width: 870px !important
+			text-align: center
+			font-size: 30px 
+			font-family: "Exo-Light";
+		img 
+			width: 100%
+			height: 465px
+			margin-top: 35px
+	#bx-pager-scheme
+		overflow: hidden
+		margin: 0 auto
+		width: 870px
+		margin-top: -8px
+		a
+			width: 174px
+			height: 50px
+			box-sizing: border-box
+			font-size: 13px
+			text-decoration: none
+			color: $gray-color
+			float: left
+			display: table
+			position: relative
+			background-color: #FFF
+			border: 1px solid #e6e6e6
+			transition: all 0.2s ease
+			&:hover
+				background-color: #646464
+				color: #fff
+			p 
+				display: table-cell
+				margin: 0
+				vertical-align: middle
+			.active-line
+				display: none
+				position: absolute
+				top: 0 
+				left: 0
+				width: 100%
+				height: 7px 
+				background-color: #fe0000
+		a.active
+			.active-line
+				display: inline-block				
+				
+	.bx-wrapper
+		position: relative
+	.bx-controls-direction
+		a 
+			font-size: 100px
+			color: #e4e4e4
+			position: absolute
+			top: 50%
+			margin-top: -40px
+			opacity: 0.7 
+			&:hover
+				opacity: 1
+		.bx-prev
+			left: 60px
+		.bx-next
+			right: 60px
+
+#certificates
+	background: url('../img/pattern.png')
+	text-align: center
+	h2 
+		margin-bottom: 20px
+	p 
+		font-size: 24px
+	.owl-stage-outer
+		width: 855px
+		margin: 75px auto 
+		position: relative
+	.owl-prev,
+	.owl-next
+		font-size: 100px;
+		color: #e4e4e4;
+		position: absolute;
+		top: 50%;
+		margin-top: -75px;
+		opacity: 0.7;
+		display: inline-block !important
+		&:hover
+			opacity: 1
+	.owl-prev
+		left: 60px
+	.owl-next
+		right: 60px
+	.certificates-slider
+		img
+			height: 360px
+			width: auto
+			border: 1px solid #E2E2E2
+#cerberus
+	background-color: #fafafa
+	text-align: center
+	background-image: url('../img/cerber_left.png') , url('../img/cerber_right.png')
+	background-repeat: no-repeat
+	background-position: center left, top right 
+	position: relative
+	.cerb-logo
+		position: absolute
+		top: -40px 
+		left: 50%
+		margin-left: -45px
+	h2 
+		margin-bottom: 20px
+		span 
+			text-transform: uppercase
+	p 
+		width: 565px
+		margin: 0 auto
+		font-size: 21px
+		line-height: 30px
+	.btn 
+		text-transform: uppercase
+		width: 270px
+		height: 60px
+		line-height: 60px
+		margin-top: 100px 
+
+#clients
+	background: url('../img/pattern.png')
+	text-align: center
+	.client-wrap
+		width: 345px 
+		padding-right: 70px
+		box-sizing: border-box
+		display: inline-block
+		vertical-align: top
+		text-align: left
+		h3 
+			font-family: "Exo-Light";
+			font-size: 24px
+			margin: 20px 0
+		img 
+			height: 75px
+
+#scheme-work
+	background-color: #fafafa
+	text-align: center
+	.descr-wrap
+		display: inline-block
+		vertical-align: middle
+		width: 375px
+		.step
+			margin-bottom: 50px
+			h3 
+				font-size: 24px 
+				font-family: "Exo-Light";
+				margin: 20px 0
+			p 
+				font-size: 14px 
+				line-height: 18px
+				text-align: left
+	.steps-numbers-wrap
+		display: inline-block
+		vertical-align: top
+		margin: 0 35px
+		.numb
+			width: 60px
+			height: 60px
+			border-radius: 50px
+			font-size: 24px
+			font-family: "Exo-Light";
+			color: #fafafa
+			background-color: #fe0000
+			line-height: 60px
+			margin: 10px 0
+		.numb-1
+			opacity: 0.4
+		.numb-2
+			opacity: 0.6
+		.numb-3
+			opacity: 0.8
+		.arrov
+			display: inline-block
+			.dot 
+				width: 3px 
+				height: 3px 
+				background-color: #fcacab
+				margin: 0 auto
+			.line 
+				width: 1px
+				height: 72px 
+				background-color: #fcacab
+				margin: 0 auto
+			.treug
+				width: 0;
+				height: 0;
+				border-left: 6px solid transparent;
+				border-right: 6px solid transparent;
+				border-top: 6px solid #fcacab;
+				margin: 0 auto
+	img 
+		display: inline-block
+		vertical-align: middle
+	.btn 
+		height: 60px 
+		line-height: 60px
+
+#in-total
+	background-image: url('../img/itogo.png') 
+	background-repeat: no-repeat 
+	background-position: center bottom
+	background-color: #fafafa
+	text-align: center
+	.wrap
+		width: 220px
+		height: 220px 
+		background: rgba(255, 255, 255, 0.9)
+		border-radius: 50%
+		border: 5px solid rgba(255, 255, 255, 1)
+		display: inline-block
+		vertical-align: top
+		margin: 150px 30px
+		padding: 45px 0
+		box-sizing: border-box
+		color: $dark-color
+		font-family: "RobotoBold";
+		span 
+			font-size: 50px 
+			line-height: 54px
+		.line 
+			width: 35px
+			height: 4px 
+			background-color: $gray-color
+			margin: 0 auto
+		p 
+			font-size: 24px 
+			line-height: 30px
+			margin: 0 
+
+#book
+	background: url('../img/pattern.png')
+	img 
+		display: inline-block
+		vertical-align: top
+	.wrap
+		display: inline-block
+		vertical-align: top
+		text-align: center
+		h3
+			font-size: 30px 
+			text-transform: uppercase
+			line-height: 45px
+			font-family: "Exo-Light";
+			margin: 140px 0 60px 
+			span 
+				font-size: 24px
+	.btn
+		height: 60px 
+		line-height: 60px
+
+#instagram
+	text-align: center
+	h3 
+		font-size: 24px
+		font-family: "RobotoRegular";
+		font-weight: normal
+		margin-top: 0
+	h2 
+		margin-bottom: 20px
+	iframe 
+		margin: 30px auto
+		display: block
+	.btn 
+		width: 370px
+		height: 60px 
+		line-height: 60px
+		i 
+			margin-right: 20px
+			display: inline-block
+
+#feedback
+	background: url('../img/ikra_niz.jpg') center
+	background-size: cover
+	h2 
+		font-size: 30px 
+		line-height: 45px 
+		color: #fff
+		font-family: "Exo-Light";
+		margin-bottom: 35px
+	form 
+		margin: 0 auto
+		box-sizing: border-box
+		overflow: hidden
+		input 
+			float: left
+			width: 207px
+			height: 51px 
+			background-color: #FFF
+			border: 1px solid #e6e6e6 
+			border-radius: 5px
+			margin: 13px
+			text-indent: 15px
+			font-size: 18px 
+			font-family: "RobotoRegular";
+			outline: none
+		.btn 
+			float: left
+			width: 205px
+			height: 55px
+			margin: 13px 
+			text-transform: uppercase
+
+#clients-brands
+	background: url('../img/pattern.png')
+	text-align: center
+	img 
+		display: inline-block
+		margin: 0 50px
+		vertical-align: middle
+
+footer
+	background-color: #323232
+	color: #fff 
+	overflow: hidden
+	padding: 20px 15px 
+	img 
+		float: left
+	.wrap 
+		float: right
+		margin-right: 50px
+		margin-top: 50px 
+		border-top: 3px solid #e6e6e6
+		padding-top: 50px
+		width: 775px
+		.col 
+			display: inline-block
+			margin-right: 45px
+			p 
+				margin: 10px 0
+
+#form 
+	background: rgba(255,255,255, 0.8)
+	border-radius: 10px 
+	padding: 30px 
+	width: 710px 
+	box-sizing: border-box
+	overflow: hidden
+	margin-top: 70px
+	margin: 0 auto
+	position: relative
+	text-align: center
+	input 
+		width: 310px
+		height: 40px 
+		background-color: #FFF
+		border: 1px solid #e6e6e6 
+		border-radius: 3px
+		vertical-align: top
+		margin: 8px 5px
+		text-indent: 15px
+		font-size: 18px 
+		font-family: "RobotoRegular";
+		outline: none
+		&:nth-child(2n+1)
+			float: left
+		&:nth-child(2n)
+			float: right
+	.btn 
+		vertical-align: top
+		margin: 20px auto 0
+.mfp-move-from-top .mfp-content 
+	vertical-align: middle;
+
+
+.mfp-move-from-top .mfp-content #form 
+	opacity: 0;
+	transition: all 0.4s;
+	transform: translateY(-100px);
+
+
+.mfp-move-from-top .mfp-content.mfp-bg 
+	opacity: 0;
+	transition: all 0.4s;
+
+
+.mfp-move-from-top.mfp-ready #form 
+	opacity: 1;
+	transform: translateY(0);
+
+
+.mfp-move-from-top.mfp-ready.mfp-bg 
+	opacity: 0.8;
+	transition: all 0.4s;
+
+
+.mfp-move-from-top.mfp-removing #form 
+	transform: translateY(-50px);
+	opacity: 0;
+
+
+.mfp-move-from-top.mfp-removing.mfp-bg 
+	opacity: 0;
+	transition: all 0.4s;
+
+.hidden
+	display: none
+
+#thank
+	background-color: #FFF
+	padding: 40px
+	width: 650px
+	box-sizing: border-box
+	margin: 0 auto
+	text-align: center
+	p 
+		margin: 0 auto
+		color: #272727
+		font-size: 23px
+	h3
+		color: #272727
+		font-size: 34px
+
+form input.error 
+	border: 1px solid red

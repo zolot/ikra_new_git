@@ -1009,6 +1009,28 @@ footer .wrap .col p {
   display: none;
 }
 
+#certif-1,
+#certif-2,
+#certif-3,
+#certif-4 {
+  margin: 0 auto;
+  width: auto;
+  max-width: 90%;
+  display: inline-block;
+  position: relative;
+}
+
+#certif-1 img,
+#certif-2 img,
+#certif-3 img,
+#certif-4 img {
+  display: block;
+}
+
+.mfp-content {
+  text-align: center;
+}
+
 #thank {
   background-color: #FFF;
   padding: 40px;
